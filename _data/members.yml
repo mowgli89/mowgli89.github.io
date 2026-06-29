@@ -1,0 +1,26 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# LAB MEMBERS — easily updatable
+# To ADD a member: copy one block below, edit the fields, and drop a square
+#   photo into assets/img/members/ (use the filename in `photo`).
+# To REMOVE a member: delete their block.
+# To REORDER: move blocks up or down. Order here = order on the page.
+# If you don't have a photo yet, leave photo: member_placeholder.png
+# ─────────────────────────────────────────────────────────────────────────────
+
+- name: "Mary Fang"
+  role: "Surgical Research Resident"
+  photo: member_placeholder.png
+  blurb: "Two-year research program in PIEZO1–YAP lung mechanotransduction and pediatric surgical workforce analysis."
+  link: ""
+
+- name: "Research Technician"
+  role: "Open position"
+  photo: member_placeholder.png
+  blurb: "We are recruiting. See the research page to inquire."
+  link: ""
+
+- name: "Postdoctoral Fellow"
+  role: "Open position"
+  photo: member_placeholder.png
+  blurb: "We welcome inquiries from prospective postdocs in fetal lung biology and mechanobiology."
+  link: ""

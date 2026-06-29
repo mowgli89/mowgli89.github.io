@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Fetal Adaptation and Biological Lung Engineering
+subtitle: Understanding developmental trajectories. Shaping better outcomes before birth.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: fable_logo_mark.png
   image_circular: false
   more_info: >
     <p>Sourav K. Bose, MD, MBA, MSc</p>
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3
 ---
 
-The **Bose FABLE Lab** studies how mechanical and developmental forces shape the fetal lung, and how that biology can be harnessed to improve outcomes in **congenital diaphragmatic hernia (CDH)** and other birth defects. Our work spans the bench and the operating room, from the PIEZO1 mechanotransduction pathway that governs how lung cells respond to stretch, to fetal interventions such as **tracheal occlusion (FETO)** that aim to rescue lung growth before birth.
+The **Bose FABLE Lab** studies how mechanical and developmental forces shape the fetal lung, and how that biology can be harnessed to improve outcomes in **congenital diaphragmatic hernia (CDH)** and other birth defects. The lab name, FABLE, stands for Fetal Adaptation and Biologic Engineering. Our work spans the bench and the operating room, from the PIEZO1 mechanotransduction pathway that governs how lung cells respond to stretch, to fetal interventions such as **tracheal occlusion (FETO)** that aim to rescue lung growth before birth.
 
 The lab is directed by Dr. Sourav K. Bose, a pediatric and fetal surgeon and surgeon-scientist. He holds appointments as Assistant Professor of Surgery at Baylor College of Medicine and as a pediatric and fetal surgeon at Texas Children's Hospital.
 
