@@ -354,3 +354,25 @@ footer{background:#070f18}
 /* ghost buttons in the light library */
 .libwrap .btn-ghost,.doc .btn-ghost{border-color:#b9c5d3;color:#1f3147}
 .libwrap .btn-ghost:hover,.doc .btn-ghost:hover{border-color:#2c5f95}
+
+/* work-in-progress note (light library theme) */
+.wip{display:flex;gap:8px;align-items:baseline;background:#f7e9e2;border:1px solid #ecc9bb;
+  color:#8a4a37;border-radius:10px;padding:11px 15px;font-size:13.5px;line-height:1.5;margin:0 0 24px}
+.wip strong{color:#6f3a2a;font-weight:700}
+
+/* mobile hero scaling fixes */
+@media (max-width:900px){
+  .hero-grid{padding:54px 0 60px}
+  .hero-frame{order:-1;width:min(360px,86%)}
+  .quicknav{flex-wrap:wrap;justify-content:center;gap:16px 22px}
+  .qn{flex:0 1 auto;width:46%;min-width:150px;max-width:230px}
+}
+@media (max-width:560px){
+  .hero h1{font-size:clamp(32px,8vw,40px)}
+  .hero .lede{font-size:16.5px}
+  .hero-frame{width:92%}
+  .quicknav{gap:14px}
+  .qn{width:100%;max-width:320px}
+  .cta-row{width:100%}
+  .cta-row .btn{flex:1;justify-content:center}
+}
