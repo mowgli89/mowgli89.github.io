@@ -115,7 +115,7 @@ a.fam{text-decoration:none;display:block}
 
 /* about + contact */
 .about-grid{display:grid;grid-template-columns:240px 1fr;gap:44px;align-items:start}
-.headshot{width:100%;aspect-ratio:1;border-radius:14px;background:
+.headshot{width:100%;aspect-ratio:1;object-fit:cover;border-radius:14px;background:
   linear-gradient(160deg,#1b2f47,#16273c);border:1px solid var(--line);
   display:flex;align-items:center;justify-content:center;color:var(--muted-2);
   font-size:13px;text-align:center;padding:18px}
