@@ -376,3 +376,10 @@ footer{background:#070f18}
   .cta-row{width:100%}
   .cta-row .btn{flex:1;justify-content:center}
 }
+
+/* quick facts on member card */
+.facts{margin-top:16px;border-top:1px solid var(--line-soft);padding-top:14px}
+.facts-h{font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--coral);font-weight:600;margin:0 0 9px}
+.facts ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.facts li{font-size:13.5px;color:var(--muted);line-height:1.5}
+.facts li strong{color:var(--ink);font-weight:600}
