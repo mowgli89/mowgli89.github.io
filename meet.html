@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meet the Lab — Bose FABLE Lab</title>
+<meta name="description" content="The people of the Bose FABLE Lab.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/">
+      
+      <span class="mark"><img src="assets/fable_tree.png" alt=""></span><span class="bw"><span class="name">FABLE</span>
+      <span class="sub">Fetal Adaptation &amp; Biologic Engineering</span></span>
+    </a>
+    <nav class="navlinks" id="nav">
+      <a href="/#research">Research</a>
+      <a href="/cdh/">For Families</a>
+      <a class="active" href="/meet.html">Meet the Lab</a>
+      <a href="/#publications">Publications</a>
+      <a href="/#about">About</a>
+      <a href="/#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<section class="block page-top">
+  <div class="wrap">
+    <p class="eyebrow">Meet the Lab</p>
+    <h2 style="font-size:clamp(30px,4vw,44px)">The people behind the work.</h2>
+    <p class="team-intro">We're a small, collaborative group of surgeons, scientists, and trainees who care about the fetal lung and the families it matters to. Coffee is taken seriously. Curiosity more so.</p>
+  </div>
+</section>
+
+<section class="block" style="padding-top:24px">
+  <div class="wrap">
+    <div class="team-grid">
+
+      <!-- ============================================================
+           TO ADD A MEMBER: copy one <div class="member"> ... </div>
+           block, edit the name, role, bio, and the optional "fun" line.
+           For a photo, replace the <div class="photo"> with:
+             <img class="photo" src="assets/team/their-photo.jpg" alt="Name">
+           and drop a square photo into assets/team/.
+           TO REMOVE: delete the block.  ORDER here = order on the page.
+      ============================================================= -->
+
+      <div class="member reveal">
+        <div class="photo">photo</div>
+        <h3>Sourav K. Bose, MD, MBA, MSc</h3>
+        <div class="role">Principal Investigator</div>
+        <p class="bio">Pediatric and fetal surgeon and surgeon-scientist. Spends his time between the operating room and the bench, asking how the fetal lung grows and how we can help it grow better.</p>
+        <p class="fun">TODO: add a personal line (what he's into outside the lab).</p>
+      </div>
+
+      <div class="member reveal">
+        <div class="photo">photo</div>
+        <h3>Mary Fang</h3>
+        <div class="role">Surgical Research Resident</div>
+        <p class="bio">Building a two-year program on PIEZO1&ndash;YAP mechanotransduction in pediatric lung, alongside a pediatric surgical workforce analysis.</p>
+      </div>
+
+      <div class="join-card reveal">
+        <h3>Join us</h3>
+        <p>We welcome students, residents, and postdocs curious about fetal lung biology and mechanobiology. Reach out through the <a href="/#contact" style="color:var(--blue)">contact page</a>.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-grid">
+    <img class="foot-logo" src="assets/fable_logo_centered.png" alt="FABLE logo">
+    <div class="foot-brand grad-text" style="font-family:var(--serif);letter-spacing:.16em;font-size:22px">FABLE</div>
+    <div style="color:var(--muted-2);font-size:13px;letter-spacing:.04em">The Bose Laboratory for Fetal Adaptation and Biologic Engineering</div>
+    <p class="disclaimer">This is Dr. Bose's personal academic site. It is not an official publication of Baylor College of Medicine or Texas Children's Hospital, and the views expressed are his own. Information here is educational and is not a substitute for advice from your own physician.</p>
+  </div>
+</footer>
+
+<script>
+  var b=document.getElementById('menuBtn'),n=document.getElementById('nav');
+  b.addEventListener('click',function(){n.classList.toggle('open')});
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+</script>
+</body>
+</html>

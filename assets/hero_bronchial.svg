@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 480" width="520" height="480">
+  <defs>
+    <linearGradient id="br" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#a6cdef"/><stop offset="0.45" stop-color="#7fb0dc"/>
+      <stop offset="0.78" stop-color="#9bb98c"/><stop offset="1" stop-color="#a6c290"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="42%" r="60%">
+      <stop offset="0" stop-color="#7fb0dc" stop-opacity="0.13"/>
+      <stop offset="0.55" stop-color="#ef7459" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ef7459" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="node" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#d7eccb"/><stop offset="1" stop-color="#a6c290"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="260" cy="220" rx="240" ry="210" fill="url(#halo)"/>
+  <g fill="none" stroke="url(#br)" stroke-linecap="round">
+    <!-- trachea + carina -->
+    <path d="M260 36 V140" stroke-width="11"/>
+    <path d="M260 140 C258 178 198 184 176 232" stroke-width="8.5"/>
+    <path d="M260 140 C262 178 322 184 344 232" stroke-width="8.5"/>
+
+    <!-- ===== LEFT LUNG lobe: dense downward-fanning airways ===== -->
+    <path d="M176 232 C168 270 162 300 158 340" stroke-width="6"/>
+    <path d="M176 232 C150 250 132 270 120 300" stroke-width="6"/>
+    <path d="M158 340 C150 364 146 384 150 410" stroke-width="4.2"/>
+    <path d="M158 340 C138 356 128 374 122 398" stroke-width="4.2"/>
+    <path d="M120 300 C104 318 96 338 92 360" stroke-width="4.2"/>
+    <path d="M120 300 C140 312 150 328 156 348" stroke-width="4"/>
+    <path d="M192 268 C200 300 200 330 196 360" stroke-width="4.6"/>
+    <path d="M196 360 C190 380 188 396 192 414" stroke-width="3.2"/>
+    <path d="M196 360 C210 372 216 386 218 404" stroke-width="3.2"/>
+    <path d="M92 360 C84 374 80 388 80 404" stroke-width="2.8"/>
+    <path d="M122 398 C114 410 112 420 112 432" stroke-width="2.8"/>
+    <path d="M150 410 C146 422 146 432 148 442" stroke-width="2.8"/>
+    <path d="M156 348 C168 356 174 368 176 382" stroke-width="2.8"/>
+
+    <!-- ===== RIGHT LUNG lobe (mirror) ===== -->
+    <path d="M344 232 C352 270 358 300 362 340" stroke-width="6"/>
+    <path d="M344 232 C370 250 388 270 400 300" stroke-width="6"/>
+    <path d="M362 340 C370 364 374 384 370 410" stroke-width="4.2"/>
+    <path d="M362 340 C382 356 392 374 398 398" stroke-width="4.2"/>
+    <path d="M400 300 C416 318 424 338 428 360" stroke-width="4.2"/>
+    <path d="M400 300 C380 312 370 328 364 348" stroke-width="4"/>
+    <path d="M328 268 C320 300 320 330 324 360" stroke-width="4.6"/>
+    <path d="M324 360 C330 380 332 396 328 414" stroke-width="3.2"/>
+    <path d="M324 360 C310 372 304 386 302 404" stroke-width="3.2"/>
+    <path d="M428 360 C436 374 440 388 440 404" stroke-width="2.8"/>
+    <path d="M398 398 C406 410 408 420 408 432" stroke-width="2.8"/>
+    <path d="M370 410 C374 422 374 432 372 442" stroke-width="2.8"/>
+    <path d="M364 348 C352 356 346 368 344 382" stroke-width="2.8"/>
+  </g>
+  <!-- alveolar tips -->
+  <g fill="url(#node)">
+    <circle cx="80" cy="404" r="4.6"/><circle cx="112" cy="432" r="4.6"/><circle cx="148" cy="442" r="4.6"/>
+    <circle cx="192" cy="414" r="4.6"/><circle cx="218" cy="404" r="4.2"/><circle cx="176" cy="382" r="4"/><circle cx="92" cy="360" r="4"/>
+    <circle cx="440" cy="404" r="4.6"/><circle cx="408" cy="432" r="4.6"/><circle cx="372" cy="442" r="4.6"/>
+    <circle cx="328" cy="414" r="4.6"/><circle cx="302" cy="404" r="4.2"/><circle cx="344" cy="382" r="4"/><circle cx="428" cy="360" r="4"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7fb0dc"/><stop offset="1" stop-color="#a6c290"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#102030"/>
+  <!-- trachea -->
+  <path d="M32 13 v12" stroke="#cfe0ee" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M32 25 c0 6 -5 6 -5 12" stroke="#cfe0ee" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M32 25 c0 6 5 6 5 12" stroke="#cfe0ee" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- left lung -->
+  <path d="M26 30 c-9 2 -13 10 -12 19 c0.6 5 4 7 8 6 c4 -1 6 -4 6 -9 z" fill="#e8674f"/>
+  <!-- right lung -->
+  <path d="M38 30 c9 2 13 10 12 19 c-0.6 5 -4 7 -8 6 c-4 -1 -6 -4 -6 -9 z" fill="#e8674f"/>
+  <!-- airway branches (kept subtle) -->
+  <path d="M26 33 c-3 3 -4 7 -4 12 M38 33 c3 3 4 7 4 12" stroke="#102030" stroke-width="2" fill="none" opacity=".45" stroke-linecap="round"/>
+</svg>

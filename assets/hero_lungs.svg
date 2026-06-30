@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 460" width="480" height="460">
+  <defs>
+    <linearGradient id="air" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9cc3e8"/><stop offset="0.55" stop-color="#7fb0dc"/><stop offset="1" stop-color="#a6c290"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="60%">
+      <stop offset="0" stop-color="#e8674f" stop-opacity="0.20"/><stop offset="1" stop-color="#e8674f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lung" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ef7459"/><stop offset="1" stop-color="#d8543c"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="240" cy="220" rx="210" ry="200" fill="url(#glow)"/>
+  <!-- trachea + main bronchi -->
+  <path d="M240 40 V150" stroke="url(#air)" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M240 150 C240 188 175 196 168 250" stroke="url(#air)" stroke-width="7.5" fill="none" stroke-linecap="round"/>
+  <path d="M240 150 C240 188 305 196 312 250" stroke="url(#air)" stroke-width="7.5" fill="none" stroke-linecap="round"/>
+  <!-- left lung -->
+  <path d="M196 168 C150 176 96 214 84 300 C76 360 96 408 150 418 C196 426 214 398 214 350 L214 196 C214 178 208 166 196 168 Z" fill="url(#lung)"/>
+  <!-- right lung -->
+  <path d="M284 168 C330 176 384 214 396 300 C404 360 384 408 330 418 C284 426 266 398 266 350 L266 196 C266 178 272 166 284 168 Z" fill="url(#lung)"/>
+  <!-- internal bronchial tree, left -->
+  <g stroke="url(#air)" fill="none" stroke-linecap="round" opacity="0.92">
+    <path d="M168 250 C160 300 150 320 142 360" stroke-width="5"/>
+    <path d="M163 280 C148 286 138 300 130 318" stroke-width="3.4"/>
+    <path d="M158 312 C172 318 182 330 188 348" stroke-width="3.4"/>
+    <path d="M150 338 C140 346 134 356 130 372" stroke-width="2.6"/>
+    <path d="M145 360 C158 366 168 374 174 388" stroke-width="2.6"/>
+  </g>
+  <!-- internal bronchial tree, right -->
+  <g stroke="url(#air)" fill="none" stroke-linecap="round" opacity="0.92">
+    <path d="M312 250 C320 300 330 320 338 360" stroke-width="5"/>
+    <path d="M317 280 C332 286 342 300 350 318" stroke-width="3.4"/>
+    <path d="M322 312 C308 318 298 330 292 348" stroke-width="3.4"/>
+    <path d="M330 338 C340 346 346 356 350 372" stroke-width="2.6"/>
+    <path d="M335 360 C322 366 312 374 306 388" stroke-width="2.6"/>
+  </g>
+  <!-- alveolar tips -->
+  <g fill="#cfe6c4">
+    <circle cx="130" cy="318" r="3.2"/><circle cx="188" cy="348" r="3.2"/><circle cx="130" cy="372" r="2.8"/><circle cx="174" cy="388" r="2.8"/>
+    <circle cx="350" cy="318" r="3.2"/><circle cx="292" cy="348" r="3.2"/><circle cx="350" cy="372" r="2.8"/><circle cx="306" cy="388" r="2.8"/>
+  </g>
+</svg>
