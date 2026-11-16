@@ -4,104 +4,122 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Meet the Lab — Bose FABLE Lab</title>
-<meta name="description" content="The people of the Bose FABLE Lab.">
+<meta name="description" content="The people of the Bose FABLE Lab, a group of surgeons, scientists, and trainees studying the fetal lung.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png">
 <link rel="apple-touch-icon" href="assets/favicon-180.png">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 
-<header>
-  <div class="wrap nav">
+<!-- ======================= NAV ======================= -->
+<header class="site-nav">
+  <div class="wrap">
     <a class="brand" href="/">
-      
-      <span class="mark"><img src="assets/fable_tree.png" alt=""></span><span class="bw"><span class="name">FABLE</span>
-      <span class="sub">Fetal Adaptation &amp; Biologic Engineering</span></span>
+      <img src="assets/fable_tree.png" alt="">
+      <span class="wordmark"><b>FABLE</b><span>Fetal Adaptation and Biologic Engineering</span></span>
     </a>
-    <nav class="navlinks" id="nav">
+    <nav class="nav-links" id="nav">
       <a href="/#research">Research</a>
       <a href="/cdh/">For Families</a>
-      <a class="active" href="/meet.html">Meet the Lab</a>
+      <a class="here" href="/meet.html">Meet the Lab</a>
       <a href="/#publications">Publications</a>
       <a href="/#about">About</a>
       <a href="/#contact">Contact</a>
     </nav>
-    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
   </div>
 </header>
 
-<section class="block page-top">
+<section class="people-head">
   <div class="wrap">
-    <p class="eyebrow">Meet the Lab</p>
-    <h2 style="font-size:clamp(30px,4vw,44px)">The people behind the work.</h2>
-    <p class="team-intro">We're a small, collaborative group of surgeons, scientists, and trainees who care about the fetal lung and the families it matters to. Coffee is taken seriously. Curiosity more so.</p>
+    <div class="rule-top">
+      <span class="label">Meet the lab</span>
+    </div>
+    <h1>The people behind the work.</h1>
+    <p class="intro">We are a small group of surgeons, scientists, and trainees who care about the fetal lung and about the families who live with what happens to it. The work runs from calcium imaging at the bench to the operating room, and most of us spend time in both.</p>
   </div>
 </section>
 
-<section class="block" style="padding-top:24px">
+<section class="roster">
   <div class="wrap">
-    <div class="team-grid">
+    <div id="roster"></div>
 
-      <!-- ============================================================
-           TO ADD A MEMBER: copy one <div class="member"> ... </div>
-           block, edit the name, role, bio, and the optional "fun" line.
-           For a photo, replace the <div class="photo"> with:
-             <img class="photo" src="assets/team/their-photo.jpg" alt="Name">
-           and drop a square photo into assets/team/.
-           TO REMOVE: delete the block.  ORDER here = order on the page.
-      ============================================================= -->
-
-      <div class="member reveal">
-        <img class="photo" src="assets/team/sourav.jpg" alt="Sourav K. Bose">
-        <h3>Sourav K. Bose, MD, MBA, MSc</h3>
-        <div class="role">Principal Investigator</div>
-        <p class="bio">Pediatric surgeon and surgeon-scientist affiliated with the Texas Children's Fetal Center. Spends his time between the operating room and the bench, asking how the fetal lung grows and how we can help it grow better.</p>
-        <div class="facts">
-          <h4 class="facts-h">Quick Facts</h4>
-          <ul>
-            <li><strong>Favorite place to travel:</strong> Anywhere off the beaten path.</li>
-            <li><strong>Dream adventure:</strong> Horseback across Patagonia or the Mongolian steppe.</li>
-            <li><strong>Favorite way to unwind:</strong> Cooking for family and friends.</li>
-            <li><strong>Kitchen specialty:</strong> Homemade pizza, slow-cooked classics, and experimenting with new cuisines.</li>
-            <li><strong>On weekends:</strong> Exploring Houston, planning the next trip, or working on a new recipe.</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="member reveal">
-        <div class="photo">photo</div>
-        <h3>Mary Fang</h3>
-        <div class="role">Surgical Research Resident</div>
-        <p class="bio">Building a two-year program on PIEZO1&ndash;YAP mechanotransduction in pediatric lung, alongside a pediatric surgical workforce analysis.</p>
-      </div>
-
-      <div class="join-card reveal">
-        <h3>Join us</h3>
-        <p>We welcome students, residents, and postdocs curious about fetal lung biology and mechanobiology. Reach out through the <a href="/#contact" style="color:var(--blue)">contact page</a>.</p>
-      </div>
-
+    <div class="join">
+      <h3>Join us</h3>
+      <p>We welcome students, residents, and postdocs who are curious about fetal lung biology and mechanobiology. Reach out through the <a href="/#contact">contact page</a>.</p>
     </div>
   </div>
 </section>
 
-<footer>
-  <div class="wrap foot-grid">
-    <img class="foot-logo" src="assets/fable_logo_centered.png" alt="FABLE logo">
-    <div class="foot-brand grad-text" style="font-family:var(--serif);letter-spacing:.16em;font-size:22px">FABLE</div>
-    <div style="color:var(--muted-2);font-size:13px;letter-spacing:.04em">The Bose Laboratory for Fetal Adaptation and Biologic Engineering</div>
-    <p class="disclaimer">This is Dr. Bose's personal academic site. It is not an official publication of Baylor College of Medicine or Texas Children's Hospital, and the views expressed are his own. Information here is educational and is not a substitute for advice from your own physician.</p>
+<!-- ======================= FOOTER ======================= -->
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="f-brand">
+      <b>FABLE</b>
+      <span>The Bose Laboratory for Fetal Adaptation and Biologic Engineering</span>
+    </div>
+    <p class="disclaimer">This is Dr. Bose's personal academic site. It is not an official publication of Baylor College of Medicine or Texas Children's Hospital, and the views expressed here are his own. The information on this site is educational and is not a substitute for advice from your own physician.</p>
   </div>
 </footer>
 
+<script src="assets/data/people.js"></script>
 <script>
-  var b=document.getElementById('menuBtn'),n=document.getElementById('nav');
-  b.addEventListener('click',function(){n.classList.toggle('open')});
-  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
-  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+  // Build the roster from assets/data/people.js
+  (function(){
+    var root = document.getElementById('roster');
+    var people = window.LAB_PEOPLE || [];
+    function el(tag, cls, text){ var e=document.createElement(tag); if(cls)e.className=cls; if(text!=null)e.textContent=text; return e; }
+
+    people.forEach(function(p){
+      var row = el('div','person');
+
+      if(p.photo){
+        var img = el('img','pic'); img.src='assets/team/'+p.photo; img.alt=p.name||''; row.appendChild(img);
+      } else {
+        var ph = el('div','pic empty','photo'); row.appendChild(ph);
+      }
+
+      var body = el('div');
+      if(p.name) body.appendChild(el('h2','nm',p.name));
+      if(p.role) body.appendChild(el('div','rl',p.role));
+      if(p.bio)  body.appendChild(el('p','bo',p.bio));
+
+      if(p.facts && p.facts.length){
+        var ul = el('ul','facts');
+        p.facts.forEach(function(f){
+          var li = el('li');
+          var b = el('b',null,(f.label||'')+': ');
+          li.appendChild(b); li.appendChild(document.createTextNode(f.value||''));
+          ul.appendChild(li);
+        });
+        body.appendChild(ul);
+      }
+
+      if(p.links && p.links.length){
+        var lw = el('div','plinks');
+        p.links.forEach(function(l){
+          var a = el('a',null,l.label||l.href); a.href=l.href||'#';
+          a.target='_blank'; a.rel='noopener'; lw.appendChild(a);
+        });
+        body.appendChild(lw);
+      }
+
+      row.appendChild(body);
+      root.appendChild(row);
+    });
+
+    if(!people.length){
+      root.appendChild(el('p','intro','The roster is being updated.'));
+    }
+  })();
+
+  var t=document.getElementById('navToggle'),n=document.getElementById('nav');
+  t.addEventListener('click',function(){n.classList.toggle('open')});
+  n.addEventListener('click',function(e){if(e.target.tagName==='A')n.classList.remove('open')});
 </script>
 </body>
 </html>
