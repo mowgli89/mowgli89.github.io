@@ -21,19 +21,6 @@
 
 window.LAB_PEOPLE = [
 
-  {
-    name: "Sourav K. Bose, MD, MBA, MSc",
-    role: "Principal Investigator",
-    photo: "sourav.jpg",
-    bio: "Sourav is a pediatric surgeon and surgeon-scientist affiliated with the Texas Children's Fetal Center. He spends his week between the operating room and the bench, working out how mechanical force shapes the fetal lung and how that understanding can change what happens to a child born with congenital diaphragmatic hernia.",
-    facts: [
-      { label: "Favorite place to travel", value: "Anywhere off the beaten path." },
-      { label: "Dream adventure", value: "Horseback across Patagonia or the Mongolian steppe." },
-      { label: "Favorite way to unwind", value: "Cooking for family and friends." },
-      { label: "Kitchen specialty", value: "Homemade pizza, slow-cooked classics, and new cuisines." },
-      { label: "On weekends", value: "Exploring Houston, planning the next trip, or working on a recipe." }
-    ]
-  },
 
   {
     name: "Mary Fang MD",
@@ -63,7 +50,7 @@ window.LAB_PEOPLE = [
   {
     name: "Srishti Arora PhD",
     role: "PhD Researcher",
-    photo: "polina.jpg",
+    photo: "srishti.jpg",
     bio: "Srishti is ",
     facts: [
       { label: "Favorite place to travel", value: "" },
@@ -71,6 +58,20 @@ window.LAB_PEOPLE = [
       { label: "Favorite way to unwind", value: "" },
       { label: "Kitchen specialty", value: "" },
       { label: "On weekends", value: "" }
+    ]
+  },
+
+  {
+    name: "Sourav K. Bose, MD, MBA, MSc",
+    role: "Principal Investigator",
+    photo: "sourav.jpg",
+    bio: "Sourav is a pediatric surgeon and surgeon-scientist affiliated with the Texas Children's Fetal Center. He spends his week between the operating room and the bench, working out how mechanical force shapes the fetal lung and how that understanding can change what happens to a child born with congenital diaphragmatic hernia.",
+    facts: [
+      { label: "Favorite place to travel", value: "Anywhere off the beaten path." },
+      { label: "Dream adventure", value: "Horseback across Patagonia or the Mongolian steppe." },
+      { label: "Favorite way to unwind", value: "Cooking for family and friends." },
+      { label: "Kitchen specialty", value: "Homemade pizza, slow-cooked classics, and new cuisines." },
+      { label: "On weekends", value: "Exploring Houston, planning the next trip, or working on a recipe." }
     ]
   },
 
